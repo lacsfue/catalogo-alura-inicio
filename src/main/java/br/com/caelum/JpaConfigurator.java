@@ -22,7 +22,7 @@ public class JpaConfigurator {
 		// String password = System.getenv("senha");
 		// String user = System.getenv("usuario");
 		
-		String url = "loja-alura-mysql3.ciy83agkhkhe.us-east-2.rds.amazonaws.com:3306";
+		String url = "loja-alura-mysql3.ciy83agkhkhe.us-east-2.rds.amazonaws.com";
 		String password = "12345678";
 		String user = "root";
 

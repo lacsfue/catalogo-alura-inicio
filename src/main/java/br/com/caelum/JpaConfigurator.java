@@ -18,14 +18,9 @@ public class JpaConfigurator {
 
 	@Bean
 	public DataSource getDataSource() {
-		// String url = System.getenv("url");
-		// String password = System.getenv("senha");
-		// String user = System.getenv("usuario");
-		
-		String url = "loja-alura-mysql3.ciy83agkhkhe.us-east-2.rds.amazonaws.com";
-		String password = "12345678";
-		String user = "root";
-
+		String url = System.getenv("url");
+		String password = System.getenv("senha");
+		String user = System.getenv("usuario");
 
 		if ( url == null ) url = "localhost";
 		if ( user == null ) user = "root";
